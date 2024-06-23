@@ -1,19 +1,14 @@
-# Elastic Beanstalk
+# CloudFormation
 
 ## Overview
-- Deploy and manage applications in the cloud without worrying about the infrastructure.
+Model and provision AWS resources using JSON/YAML templates.
 
-## Common Commands
+## Use Cases
+- Infrastructure as code
+- Reproducible infrastructure deployments
+- Multi-account and multi-region deployments
 
-### Creating an Elastic Beanstalk Application
-```bash
-eb create my-environment
-```
-
-### Deploying an Application
-```bash
-eb deploy
-```
-
-## Examples
-See the [examples](./examples) folder for practical scripts and use cases.
+## Key Features
+- Supports a wide range of AWS resources.
+- StackSets for managing multiple accounts/regions.
+- Change sets for previewing changes.

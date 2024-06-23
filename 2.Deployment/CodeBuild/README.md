@@ -1,19 +1,13 @@
-# Elastic Beanstalk
+# CodeBuild
 
 ## Overview
-- Deploy and manage applications in the cloud without worrying about the infrastructure.
+Fully managed build service that compiles source code, runs tests, and produces software packages.
 
-## Common Commands
+## Use Cases
+- Building and testing code
+- Producing build artifacts
 
-### Creating an Elastic Beanstalk Application
-```bash
-eb create my-environment
-```
-
-### Deploying an Application
-```bash
-eb deploy
-```
-
-## Examples
-See the [examples](./examples) folder for practical scripts and use cases.
+## Key Features
+- Pay-as-you-go pricing.
+- Integration with CodePipeline for end-to-end automation.
+- Support for multiple build environments and languages.

@@ -1,20 +1,13 @@
-# IAM (Identity and Access Management)
+# Cognito
 
 ## Overview
-- Manage users, groups, roles, and permissions.
-- MFA (Multi-Factor Authentication).
+Add user sign-up, sign-in, and access control to your web and mobile apps.
 
-## Common Commands
+## Use Cases
+- User authentication
+- Access control
 
-### Creating an IAM User
-```bash
-aws iam create-user --user-name my-user
-```
-
-### Attaching a Policy to a User
-```bash
-aws iam attach-user-policy --user-name my-user --policy-arn arn:aws:iam::aws:policy/AmazonS3FullAccess
-```
-
-## Examples
-See the [examples](./examples) folder for practical scripts and use cases.
+## Key Features
+- User Pools for authentication.
+- Identity Pools for access control.
+- Integration with social identity providers (Facebook, Google, etc.).

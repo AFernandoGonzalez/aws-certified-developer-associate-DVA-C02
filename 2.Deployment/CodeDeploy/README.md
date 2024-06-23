@@ -1,19 +1,14 @@
-# Elastic Beanstalk
+# CodeDeploy
 
 ## Overview
-- Deploy and manage applications in the cloud without worrying about the infrastructure.
+Automates code deployments to any instance, including EC2 and on-premises servers.
 
-## Common Commands
+## Use Cases
+- Continuous deployment
+- Blue/green deployments
+- Rolling updates
 
-### Creating an Elastic Beanstalk Application
-```bash
-eb create my-environment
-```
-
-### Deploying an Application
-```bash
-eb deploy
-```
-
-## Examples
-See the [examples](./examples) folder for practical scripts and use cases.
+## Key Features
+- Deployment strategies: In-place and blue/green.
+- Integration with other AWS services (CodePipeline, CloudWatch).
+- Supports multiple platforms (EC2/On-Premises, Lambda, ECS).

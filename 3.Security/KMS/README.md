@@ -1,20 +1,13 @@
-# IAM (Identity and Access Management)
+# KMS (Key Management Service)
 
 ## Overview
-- Manage users, groups, roles, and permissions.
-- MFA (Multi-Factor Authentication).
+Create and control the encryption keys used to secure your data.
 
-## Common Commands
+## Use Cases
+- Encrypting data at rest and in transit
+- Managing encryption keys for AWS services
 
-### Creating an IAM User
-```bash
-aws iam create-user --user-name my-user
-```
-
-### Attaching a Policy to a User
-```bash
-aws iam attach-user-policy --user-name my-user --policy-arn arn:aws:iam::aws:policy/AmazonS3FullAccess
-```
-
-## Examples
-See the [examples](./examples) folder for practical scripts and use cases.
+## Key Features
+- Integrated with most AWS services.
+- Centralized key management.
+- Automatic key rotation.

@@ -1,19 +1,13 @@
-# Elastic Beanstalk
+# CodePipeline
 
 ## Overview
-- Deploy and manage applications in the cloud without worrying about the infrastructure.
+Continuous integration and continuous delivery service.
 
-## Common Commands
+## Use Cases
+- Automating the build, test, and deploy phases of applications
+- Integrating with third-party services
 
-### Creating an Elastic Beanstalk Application
-```bash
-eb create my-environment
-```
-
-### Deploying an Application
-```bash
-eb deploy
-```
-
-## Examples
-See the [examples](./examples) folder for practical scripts and use cases.
+## Key Features
+- Integration with CodeBuild, CodeDeploy, and third-party tools.
+- Customizable workflows with stages and actions.
+- Automated triggers for changes in source code repositories.

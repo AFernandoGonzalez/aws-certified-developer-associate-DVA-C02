@@ -1,20 +1,13 @@
-# CloudWatch
+# CloudTrail
 
 ## Overview
-- Monitor AWS resources and applications.
-- Metrics, Alarms, Logs, Events, and Dashboards.
+Enables governance, compliance, and operational and risk auditing of your AWS account.
 
-## Common Commands
+## Use Cases
+- Auditing AWS account activity
+- Compliance and governance
 
-### Creating a CloudWatch Alarm
-```bash
-aws cloudwatch put-metric-alarm --alarm-name my-alarm --metric-name CPUUtilization --namespace AWS/EC2 --statistic Average --period 300 --threshold 80 --comparison-operator GreaterThanOrEqualToThreshold --evaluation-periods 2 --alarm-actions arn:aws:sns:us-east-1:123456789012:my-sns-topic
-```
-
-### Viewing CloudWatch Logs
-```bash
-aws logs describe-log-streams --log-group-name my-log-group
-```
-
-## Examples
-See the [examples](./examples) folder for practical scripts and use cases.
+## Key Features
+- Logs API calls made in your account.
+- Integration with CloudWatch for alerting.
+- Detailed event history.

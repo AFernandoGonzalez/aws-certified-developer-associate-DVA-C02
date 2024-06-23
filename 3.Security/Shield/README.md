@@ -1,20 +1,12 @@
-# IAM (Identity and Access Management)
+# Shield
 
 ## Overview
-- Manage users, groups, roles, and permissions.
-- MFA (Multi-Factor Authentication).
+Managed DDoS protection for your applications.
 
-## Common Commands
+## Use Cases
+- Protecting web applications from DDoS attacks
 
-### Creating an IAM User
-```bash
-aws iam create-user --user-name my-user
-```
-
-### Attaching a Policy to a User
-```bash
-aws iam attach-user-policy --user-name my-user --policy-arn arn:aws:iam::aws:policy/AmazonS3FullAccess
-```
-
-## Examples
-See the [examples](./examples) folder for practical scripts and use cases.
+## Key Features
+- Two tiers: Standard and Advanced.
+- Automatic protection against common DDoS attacks.
+- Advanced tier includes cost protection and detailed attack diagnostics.

@@ -1,19 +1,14 @@
 # Elastic Beanstalk
 
 ## Overview
-- Deploy and manage applications in the cloud without worrying about the infrastructure.
+Deploy and manage applications in the cloud without worrying about the infrastructure.
 
-## Common Commands
+## Use Cases
+- Web applications
+- APIs
+- Backend services
 
-### Creating an Elastic Beanstalk Application
-```bash
-eb create my-environment
-```
-
-### Deploying an Application
-```bash
-eb deploy
-```
-
-## Examples
-See the [examples](./examples) folder for practical scripts and use cases.
+## Key Features
+- Supports multiple languages (Java, .NET, PHP, Node.js, Python, Ruby, Go, Docker).
+- Automatic scaling.
+- Integrated monitoring and logging.

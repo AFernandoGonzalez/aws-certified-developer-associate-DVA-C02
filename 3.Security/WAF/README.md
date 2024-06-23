@@ -1,20 +1,13 @@
-# IAM (Identity and Access Management)
+# WAF (Web Application Firewall)
 
 ## Overview
-- Manage users, groups, roles, and permissions.
-- MFA (Multi-Factor Authentication).
+Protect your web applications from common web exploits.
 
-## Common Commands
+## Use Cases
+- Protecting web applications from attacks
+- Filtering traffic
 
-### Creating an IAM User
-```bash
-aws iam create-user --user-name my-user
-```
-
-### Attaching a Policy to a User
-```bash
-aws iam attach-user-policy --user-name my-user --policy-arn arn:aws:iam::aws:policy/AmazonS3FullAccess
-```
-
-## Examples
-See the [examples](./examples) folder for practical scripts and use cases.
+## Key Features
+- Rules for blocking common attack patterns.
+- Integration with CloudFront, API Gateway, and ALB.
+- Real-time traffic monitoring.

@@ -1,20 +1,13 @@
-# IAM (Identity and Access Management)
+# Secrets Manager
 
 ## Overview
-- Manage users, groups, roles, and permissions.
-- MFA (Multi-Factor Authentication).
+Securely store and manage sensitive information, such as database credentials and API keys.
 
-## Common Commands
+## Use Cases
+- Managing secrets
+- Rotating database credentials
 
-### Creating an IAM User
-```bash
-aws iam create-user --user-name my-user
-```
-
-### Attaching a Policy to a User
-```bash
-aws iam attach-user-policy --user-name my-user --policy-arn arn:aws:iam::aws:policy/AmazonS3FullAccess
-```
-
-## Examples
-See the [examples](./examples) folder for practical scripts and use cases.
+## Key Features
+- Automatic secrets rotation.
+- Secure and auditable access to secrets.
+- Integration with RDS, Redshift, and other services.
